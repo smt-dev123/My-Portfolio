@@ -70,10 +70,10 @@ const Header = () => {
               </a>
             </li>
           ))}
-          <select>
+          {/* <select>
             <option>KH</option>
             <option>EN</option>
-          </select>
+          </select> */}
         </ul>
       </nav>
     </header>
