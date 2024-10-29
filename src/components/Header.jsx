@@ -47,13 +47,14 @@ const Header = () => {
 
   return (
     <header className="fixed w-full bg-white text-black font-bold shadow-md py-4 z-50">
-      <nav className="flex items-center justify-between max-w-screen-xl mx-auto px-4 md:px-8">
+      <nav className="flex flex-col md:flex-row gap-4 items-center justify-between max-w-screen-xl mx-auto px-4 md:px-8">
         <a
           onClick={() => scrollToSection("home")}
           className="text-xl cursor-pointer"
         >
           <img src={MyLogo} alt="SMT-DEV" className="h-8 text-black" />
         </a>
+        <hr className="my-2 border-2 border-blue-400 w-full md:hidden" />
         <ul className="flex items-center space-x-6">
           {navLinks.map(({ id, label }) => (
             <li key={id}>

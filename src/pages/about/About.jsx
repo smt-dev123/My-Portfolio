@@ -36,7 +36,7 @@ const About = () => {
           <div>
             <div className="text-lg mb-6">
               <motion.h2
-                variants={fadeIn("left", 0.2)}
+                variants={fadeIn("up", 0.2)}
                 initial="hidden"
                 whileInView="show"
                 viewport={{ once: false, amount: 0.7 }}
@@ -45,7 +45,7 @@ const About = () => {
                 I'm LUY SOKMATRA
               </motion.h2>
               <motion.p
-                variants={fadeIn("left", 0.5)}
+                variants={fadeIn("up", 0.5)}
                 initial="hidden"
                 whileInView="show"
                 viewport={{ once: false, amount: 0.7 }}
@@ -54,14 +54,14 @@ const About = () => {
                 Full Stack Developer
               </motion.p>
               <motion.hr
-                variants={fadeIn("left", 0.6)}
+                variants={fadeIn("up", 0.6)}
                 initial="hidden"
                 whileInView="show"
-                viewport={{ once: false, amount: 1 }}
+                viewport={{ once: false, amount: 0.7 }}
                 className="my-2 border-2 border-blue-600"
               />
               <motion.div
-                variants={fadeIn("left", 0.7)}
+                variants={fadeIn("up", 0.7)}
                 initial="hidden"
                 whileInView="show"
                 viewport={{ once: false, amount: 0.7 }}
@@ -82,7 +82,7 @@ const About = () => {
               </motion.div>
             </div>
             <motion.div
-              variants={fadeIn("left", 0.9)}
+              variants={fadeIn("up", 0.9)}
               initial="hidden"
               whileInView="show"
               viewport={{ once: false, amount: 0.7 }}
